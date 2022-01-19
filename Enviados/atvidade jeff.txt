@@ -1,0 +1,28 @@
+
+1- É um protocolo para que browsers e servidores possam se comunicar.
+
+2- Os mais utilizados atualmente são: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS e CONNECT.
+
+3- GET e POST. algumas das diferenças entre eles são: GET tem um tamanho máximo de dados que podem ser enviados, que no geral é de 255 caracteres. Já o POST, podemos enviar informações um pouco maiores, como imagens.
+
+4- Requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor. Tipo: GET, POST, PUT, DELETE, HEAD, TRACE, OPTIONS, PATCH e CONNECT.
+
+5- O navegador, envia uma requisição HTTP (HTTP REQUEST) para o servidor, que verifica em seus arquivos se pode atender o pedido. Se encontrado, o servidor entao envia uma resposta para o navegador (RESPONSE) Que executa e mostra o site na tela.
+
+6- O GET solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados
+
+7- O protocolo utilizado para transferência segura é o HTTPS.
+
+8-  Os principais são GET, POST, PUT, DELETE.
+
+9-  No IPv4, cada protocolo é composto por quatro grupos de dois dígitos hexadecimais, cada um com 32 bits e variando entre 0 e 255. O IPv6, por sua vez, possui oito grupos de números, cada um com quatro dígitos (128 bits) hexadecimais.
+
+10- HTTP é um protocolo que permite a obtenção de recursos, como documentos HTML. 
+
+ TCP/IP é um conjunto de regras padronizadas que permitem que os computadores se comuniquem em uma rede como a internet.
+
+ O IP é o principal protocolo de comunicação da Internet. Ele é o responsável por endereçar e encaminhar os pacotes que trafegam pela rede mundial de computadores.
+
+ O UDP é um protocolo simples da camada de transporte. Ele é descrito na RFC 768 e permite que a aplicação envie um datagrama encapsulado num pacote IPv4 ou IPv6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente.
+
+ O Simple Mail Transfer Protocol (SMTP) é um protocolo usado no envio e recebimento de e-mail. O SMTP é baseado na implementação do protocolo do início de 1971: o protocolo da caixa de correio e o programa SNDMSG.

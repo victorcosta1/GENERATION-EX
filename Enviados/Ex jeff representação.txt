@@ -1,0 +1,56 @@
+
+Anna:
+
+ Anna não consegue identificar o erro;
+
+ contacta a equipe de back-end mas é informada que la esta tudo normal;
+
+ Anna pesquisa em um forúm de desenv. e percebe que um usuario teve o mesmo problema e conseguiu resolver;
+
+ através das dicas anna consegue corrigir o problema;
+
+ Anna é informada por seu supervisor que na sex havera uma reunião de feedback onde ela ira descrever o problema e o processo de solução.;
+
+ a reunião termina quando o chefe a finaliza;
+
+Colega:
+
+ na reunião faz as seguintes perguntas:
+
+  O que a fez decidir ir ao depósito para ver se o erro ainda estava ocorrendo?
+
+  Por que você decidiu recorrer a fóruns online de desenvolvedores ao invés de tentar resolver o problema por conta própria?
+
+  O que você teria feito se houvesse recorrido aos fóruns online, mas não houvesse encontrado a solução para o problema?
+
+  Após resolver o problema, por que você não foi informar seu supervisor imediatamente? Você não queria que ele soubesse o bom trabalho que você fez?
+
+ Supervisor:
+
+  Você pediu para ela compartilhar as informações em sua reunião de feedback no final da semana;
+
+   Se Ana pedir por seu feedback depois de responder às perguntas de seus colegas, dê a ela o seguinte feedback:
+      
+      Explique que foi ótimo que ela tenha tomado iniciativa de ir ao depósito para verificar se havia um problema e tenha procurado por soluções encontradas anteriormente para o problema 
+      Diga a Ana que, da próxima vez, seria uma boa ideia envolver outros colegas de equipe também, para ver se eles já sabem como resolver o problema ou se poderiam dar outro conselho; lembre a Ana de que é ótimo agir, mas que essa também é uma oportunidade para trabalhar com sua equipe
+         
+        Se Ana responder e explicar como ela aplicará esse feedback no futuro, diga, "Bom trabalho! Você vocês mais tarde, equipe." Encerre a reunião de equipe.
+	Caso Ana NÃO responda a você e não explique como ela aplicará esse feedback, pergunte a ela como ela planeja ajustar seu comportamento no futuro.
+	Ouça à sua resposta, e então encerre a reunião de equipe.
+
+
+
+
+
+Colega 2: Michelle
+
+Colega: Guilherme
+
+Anna: Leandro
+
+Supervisor: Chefe
+
+Representante do back-end: Victor
+
+
+
