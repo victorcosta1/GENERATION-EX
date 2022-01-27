@@ -1,0 +1,81 @@
+Laços Condicionais:
+
+-------------------------------------------------------------------------------------------------------------
+Tem 2 saídas: true/false. Caso seja true ele segue apenas esse caminho. 
+
+cntl+shift+O: importa a biblioteca auto.
+
+If: Se
+  estrutura:
+	If(media >=6.0) {
+	     xxxx
+}
+
+
+else: senão //não precisamos atribuir um valor já que é a ultima saida se os outros dois forem falsos.
+   estrutura:
+	 else{
+	   xxxxx
+}
+
+else if: senão se:
+	  estrutura:
+		else if (media >=3.0 && media < 6.0) {
+				xxx
+}
+
+
+-------------------------------------------------------------------------------------------------------------
+
+switch case
+
+usamos case: para escolhas e validaçoes simples tipo a ou b
+	    (Leia)
+char letra = sc.next().charAt(0);
+
+
+
+switch(letra) {
+
+ a virgula aqui  funciona como OU.
+case 'a', 'B':
+
+	sysout: xxx xxx xxx
+}	
+
+-------------------------------------------------------------------------------------------------------------
+
+Laços de repetições:
+
+Gira enquanto a condição não for atendida
+
+while:
+  estrutura:
+	
+	while(contador < 0) {
+
+		sysout contador xxx;
+
+		contador --;	
+}
+
+-------------------------------------------------------------------------------------------------------------
+
+Do: faça enquanto.
+
+  Roda primeiro pra depois verificar.
+			      estrutura:
+
+					do {
+						System.out.println("Repetição: " + i );
+							++i;
+							Thread.sleep(500);
+			
+						}
+						while(i <= 10);
+-------------------------------------------------------------------------------------------------------------
+
+
+For
+
+detalhe: Variaveis declaradas dentro do laço só podem ser utulizadas dentro do mesmo.
