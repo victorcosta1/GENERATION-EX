@@ -1,0 +1,45 @@
+Sun MicroSystems
+
+Java ---> micro dispositivos --> credito, celulares, navgadores etc...
+
+app --> android
+
+WEb Application -
+
+-----------------------------------
+POO --> modelo/forma como programar
+
+4 pilares --> Abstração, Encapsulamento, Herança e Polimorfismo
+------------------------------------
+Portabilidade Java --> 
+
+Segurança
+
+----------------------------
+JVM --> Bytecode(linguagem de máquina) 
+
+Java -->  JRE --> Java Runtime Envoriment --> bytecodes(.class)
+----------------------------------------
+
+JDK --> Java Development Kit(ferramentas para progrmamar na linguagem java)
+--------------------------------------
+
+SDK --> Software Development Kit (IOS SDK), Android SDK, Facebook Javascript SDk
+----------------------------------------------
+
+Pacotes --> br.com.nubank.contas;
+	    br.com.nubank.clientes;
+---------------------------------------------
+J2ME --> Java Micro Edition -> pequenos dispositivos
+J2SE --> Java Standard Edition ----> desktop
+J2EE --> Java Enterprise Edition --> Web
+
+1.2
+------------------------------------------
+Programador --> Java -> compilar -> bytecodes -> pc, celular, etc...
+
+------------------------------------------
+
+Projeto --> pacote -> classe -> main --> metodo1/metodo2 etc...
+
+

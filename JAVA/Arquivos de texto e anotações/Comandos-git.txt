@@ -1,0 +1,18 @@
+Cd: Abre qualquer diretorio
+
+ls: mostra o que tem no diretorio
+
+mkdir: Cria uma nova pasta no diretorio
+
+git clone: trás o repositório online para a maquina
+
+pwd: mostra a localização atual
+
+cd..: Volta para a pasta raíz 
+
+git add: add arquivos caso queira add mais de um arquivo usar
+git add .  ( com espaço).
+
+git commit  -m "(mensagem explicando oq vc add)":
+
+git push : publica as alterações.

@@ -1,0 +1,14 @@
+Media ponderada: 
+
+multiplica as notas pelos pessos e div pela soma dos pesos 
+
+verifica qual o  maior peso 
+
+
+
+soma dos pesos = n3
+
+notas= n1, n2
+
+
+n1*peso1 n2*peso2/ n3
