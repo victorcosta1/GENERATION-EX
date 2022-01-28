@@ -1,0 +1,42 @@
+●	Why (Por quê): Qual o propósito do desafio/solução? Por que ela precisa existir?                                       |
+●	What (O que): O que é a solução? O que a audiência precisa saber sobre isso?                                           |
+●	Who (Quem): Qual o público ao qual a solução de dedica? Quais os beneficiários?                                        |
+●	Where (Onde): Onde vai se passar o projeto? Estamos falando de cidades específicas, de um país?                        |
+●	When (Quando): Qual o tempo para criar a solução? Quando será implementada? Por quanto tempo? Tem um prazo?            |
+●	How (Como): Como a solução será criada? Qual a metodologia? Existe algum processo ou caminho a ser seguido?            |
+●	How Much (Quanto): Quanto vai custar essa solução? Quais os recursos que serão utilizados? Podemos prever ou estimar?  |
+_______________________________________________________________________________________________________________________________|
+
+•Qual o propósito do desafio/solução? Por que ela precisa existir?
+
+ A plataforma é necessária, por motivos de facilidade de acesso. Imagine, em vez de um site, a plan international, resolve criar um local físico para ter como sede do projeto. 
+Meninas do mundo todo teriam que viajar até o local, o que é impossível devido a condição financeira de muitas.  Nesse caso, entra a B2ML. Uma empresa seria e capacitada, que além de ter entregue um resultado com maestria, entregou dentro do prazo.  
+A B2ML veio para facilitar a inclusão entre as minorias e diminuir um pouco a disparidade que é vigente no mercado de trabalho.
+
+•O que é a solução? O que a audiência precisa saber sobre isso?
+
+ A solução é um site integrador, que consiste em facilitar o acesso a educação de qualidade. Além disso, a plataforma vai ajudar a formar pessoas, não digo no sentido acadêmico, mas sim com relação a formação de caráter. Afinal, são meninas de 14 anos, e nessa idade é importantíssimo a absorvição de traços e morais éticas. 
+
+•Qual o público ao qual a solução de dedica? Quais os beneficiários?
+
+ A plataforma visa viabilizar o projeto integrador junto a meninas entre 14-18 anos. Além dos benefícios citados acima de forma tão concisa, temos o fato de que a plataforma iria diminuir a desigualdade de gênero na politica, o que é um problema vigente. 
+
+•Onde vai se passar o projeto? Estamos falando de cidades específicas, de um país?
+
+ A Plan International, é uma empresa multinacional presente em mais de 70 países. Fechar um "cercado" em somente um país, não seria nada bom tanto para empresa quanto para o projeto em sí.
+Queremos ter a certeza, de que vamos atingir o maximo de garotas possiveis. 
+
+•Qual o tempo para criar a solução? Quando será implementada? Por quanto tempo? Tem um prazo? 
+
+ Apesar de não termos um prazo estipulado, a experiência faz me crer que: Tanto a B2ML quanto a Plan International, estarão trabalhando em conjunto para entregar o mais rapido possivel.
+Esse tipo de projeto é muito grande, imprevistos acontecem por mais competente seja o relizador e idealizador do projeto. 
+
+•Como a solução será criada? Qual a metodologia? Existe algum processo ou caminho a ser seguido?
+ Nunca existe um caminho claro e certeiro. Afinal, para todo problema grande existe uma saída rapidá, facil e errada. 
+ Projetos grandes como esses, utilizam várias metodologias, por exemplo o metodo de dessenvolvimento agíl, SCRUM. 
+ Scrum é um conjunto de boas práticas empregado no gerenciamento de projetos complexos, em que não se conhece todas as etapas ou necessidades. Focado nos membros da equipe, o Scrum torna os processos mais simples e claros, pois mantém registros visíveis sobre o andamento de todas as etapas.
+
+•Quanto vai custar essa solução? Quais os recursos que serão utilizados? Podemos prever ou estimar?
+
+Como é um projeto grande e dificil, não ira ter um custeamento baixo. Acredito, que não podemos ver como um "custo" e sim como um investimento em pessoas.
+

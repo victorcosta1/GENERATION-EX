@@ -1,0 +1,54 @@
+Variavel --> espaço na memoria ram
+
+vetor --> espaço de memoria (subdividido)
+
+int vetor[3] --> |1||10|35|
+
+**Não precisa ser somente int pode ser por exemplo: String (cadeia).
+
+
+todo vetor começa em 0.
+
+ex:
+vetor[3]= 0,1,2
+vetor[4]= 0,1,2,3
+
+precisamos de um laço de repetição para navegar entre os espaços do vetor.
+
+Estrutura:
+         - - - -> Nome da variavel
+         |
+int[] arrayVetor = new int[10];
+
+para navegar usamos o FOR
+
+EX
+	int num = 300;      	//atribuição de valor atraves de uma variavel
+				
+		arrayVetor[7] = num;
+		
+		
+		for(int i = 0; i <= 9; i++) {
+			
+			System.out.println(i + " - " + arrayVetor[i]);
+		}
+
+podemosd atribuir um valor a um  arrayVetor assim:
+		arrayVetyor[5] = [5]
+
+
+
+Matriz:
+
+É composta por linhas e colunas. 
+	estrutura:
+		int[][]arrayMatriz = new int[2][2];
+
+precismos de for para navegar na matriz:
+			for --> Linha
+			  for---> coluna
+Um dentro do outro.
+
+//para somar matrzes é necessario 3
+
+3 = 1+2
