@@ -1,0 +1,29 @@
+Interface
+
+É um recurso da POO para nós auxiliar 
+
+É interessante utilizar quando se trabalha com obrigatoriedade 
+ interface -> Obriga a classe a  utilizar determinados metodos.
+
+
+ex
+
+
+Cliente()
+
+void salvar(){
+}
+==========
+
+fUNCIONARIO()	{
+
+	void salvar(){
+
+    }
+
+}
+
+
+interface não tem corpo só tem assinaturas. 
+
+todas as classes que tiverem um certa 
