@@ -1,0 +1,36 @@
+Herança
+
+Classe pai/mãe ---> SuperClass
+
+Classe bem generica ex:
+
+pessoa(){ 		//Classe pai
+
+acesso a essa rede	
+	nome
+	idade
+	genero
+}
+
+//SubClasse
+aluno(){ //Classe filho 1
+	nome
+	idade
+	genero
+	curso
+}
+
+//SubClasse2
+
+funcionario{ //Classe filho 2
+	nome
+	idade
+	genero
+	cargo
+}
+Classe filha --> SubClasse
+
+UML
+
+Linguagem de modelagem de classe 
+
