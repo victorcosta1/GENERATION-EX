@@ -1,0 +1,20 @@
+
+Collections:
+
+É um objeto que serve para agrupar elementos (dados).
+
+
+List:
+
+
+
+
+ArrayList:
+
+
+
+conclusões:
+- ArrayList é uma classe;
+- Dentro do arrayList entra os dados do tipo String, int e etc...;
+- O new cria um objeto. Aulas é o objeto baseado na classe ArrayList.
+- ArrayList também é um construtor.
