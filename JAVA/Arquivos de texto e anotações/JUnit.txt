@@ -1,0 +1,18 @@
+JUnit ---> Framework 
+
+São ferramentas para testagem de softwares
+
+Tipos de teste:
+
+Integração ---> junta as partes da aplicação
+
+
+smoke test --->  Teste feito pelo programador anets de entregar para o cliente
+
+funcional ---> teste feito pelo cliente
+
+carga --->  Testagem feita por varias pessoas 
+
+segurança ----> vulnerabilidade do software
+
+unitario ------> testes nas classes ou metedos 

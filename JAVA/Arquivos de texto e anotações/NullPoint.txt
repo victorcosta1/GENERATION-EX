@@ -1,0 +1,14 @@
+Collections
+
+É um objeto que serve para agrupar 
+vários elementos 
+
+ArrayList
+
+Map--> é uma interface aramazena dados--
+pelo, nome, numero
+
+HashMap
+TreeMap
+
+NullPointerException...
