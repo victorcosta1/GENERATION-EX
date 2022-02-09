@@ -43,7 +43,7 @@ não libera os dados facilmente
 HTTP são conpostos de verbos e estados
 
 verbos:
-
+Get, post, delete, head
 
 estados: são as respostas 
 
