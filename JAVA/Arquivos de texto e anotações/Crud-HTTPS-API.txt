@@ -1,0 +1,59 @@
+Crud
+
+create
+read
+update
+delete
+
+criar api
+
+
+API metodo entre back e fornt
+==Nomes=================================
+
+Get --> traz informações
+head crud
+
+post---> envia info
+create crud
+
+updadte
+update
+
+delete
+delete
+==========================================
+cliente = front
+
+server = back end
+
+Deploy colocar na internert
+
+Api resfull | API Rest
+
+é um padrão de arquitetura de dados
+
+restfull tem uma camada a mais de segurança 
+
+HATEOAS
+
+não libera os dados facilmente
+=========================================
+
+HTTP são conpostos de verbos e estados
+
+verbos:
+
+
+estados: são as respostas 
+
+vão de 200 a 599
+
+200++ = ok 
+
+400++: erro de cliente envio de algo que esta errado (geralmente o front) 
+
+500+: erro de servidor 
+
+https://httpstatusdogs.com/
+https://http.cat/
