@@ -1,0 +1,52 @@
+1) descreva o que seria a camada de front-end no desenvolvimento web.
+
+R: Toda a questão visual do site e de seus elementos
+
+
+2) descreva o que seria a camada de back-end no desenvolvimento web.
+
+R: Camada de código que faz tudo aquilo funcionar.
+
+
+3) Diferencie a camada de front-end da camada de back-end.
+
+R: Back-end é tudo a o que o usuário não tem conhecimento ou não precisa ter conhecimento de funcionamento e implementação 
+já o front-end é a questão visual do site ou aplicação tudo o que é interativo ao usuário ex: botões.
+
+
+4) Descreva com suas palavras o que seria um banco-dados.
+
+R: Um aglomerados de dados e informações guardados em uma tabela.
+
+
+5) Descreva o que é um SGDB..
+
+É um software que manipula as informações 
+
+
+6) Qual a diferença do banco de dados relacional para o banco de dados não
+relacional?
+
+R:Bancos de dados relacionais: são apresentados em tabelas e podem se relacionar com outros BDS
+Não relacionais: Apresentam as tabelas em um formato parecido com json não tem relacionamento entre tabelas
+
+
+7) O que é uma chave primária e qual a função dela?
+
+R:é um indicador para que tabelas não recebam valores repetidos 
+
+
+8) O que é uma chave estrangeira e qual a função dela?
+
+R:é um atributo para tabelas se relacionarem
+
+
+9) Descreva o que seria o DER e qual a sua importância.
+
+R: é uma representação grafica do MER. é importante para diminuir a abstração da ideia entre os desenvolvedores
+
+
+10) Qual a importância do banco de dados para o desenvolvimento web.
+
+Importantissimo. Desde o gerenciamento de dados quanto para o futuro manuseio dos mesmos.
+
