@@ -22,3 +22,5 @@ select * from tb_estudantes;
 select nome, nota from tb_estudantes where nota > 07.00 order by nota desc;
 
 select nome, nota from tb_estudantes where nota < 07.00 order by nota desc;
+
+UPDATE tb_estudantes SET nome =  "Eduardo" WHERE id=1 		/*Muda o nome ou outro atributo*/
