@@ -20,4 +20,4 @@ public interface PostRepository extends JpaRepository<PostModel, Long> {
  * PostRepository: PostagemRepository
  * Title: Titulo
  * Description: Texto/text
- */
+ *nome da lista de postagem no tema = post*/

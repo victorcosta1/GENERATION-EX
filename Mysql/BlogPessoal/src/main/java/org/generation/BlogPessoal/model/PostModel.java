@@ -6,11 +6,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 
@@ -32,11 +35,20 @@ public class PostModel {
 	@Temporal(TemporalType.TIMESTAMP) //COMPLEMENTA O CALENDARIO
 	private Date data = new java.sql.Date(System.currentTimeMillis());
 
+	@ManyToOne
+	@JsonIgnoreProperties("tb_postagens") /*Trava a busca de temas e postagens para não criar um loop infinito*/
+	private Tema tema;
 	
 	
 	
-	
-	
+	public Tema getTema() {
+		return tema;
+	}
+
+	public void setTema(Tema tema) {
+		this.tema = tema;
+	}
+
 	public long getId() {
 		return id;
 	}
