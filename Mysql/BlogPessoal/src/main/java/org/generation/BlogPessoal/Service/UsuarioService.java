@@ -15,19 +15,28 @@ import org.springframework.stereotype.Service;
 public class UsuarioService {
 
 	
+	private String criptografarSenha(String senha) {
+		
+		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+		return encoder.encode(senha);
+		
+	}
+	
+
 	@Autowired
 	private UsuarioRepository repository;
 	
-	public Usuario CadastrarUsuario(Usuario usuario) {
-		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+	public Optional<Usuario> CadastrarUsuario(Usuario usuario) {
 		
-		String senhaEncoder = encoder.encode(usuario.getSenha());
+		if (repository.findByUsuario(usuario.getUsuario()).isPresent())
+			return Optional.empty();
 		
-		usuario.setSenha(senhaEncoder);
-		
-		return repository.save(usuario);
+		usuario.setSenha(criptografarSenha(usuario.getSenha()));
+		return Optional.of(repository.save(usuario));
 	}
 	
+
+
 	public Optional<UserLogin> Logar(Optional<UserLogin> user){
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 		Optional<Usuario> usuario = repository.findByUsuario(user.get().getUsuario());

@@ -31,11 +31,11 @@ public class Tema {
 	private String descricao;
 
 
-	
 	@OneToMany(mappedBy = "tema", cascade = CascadeType.ALL) /*um tema para varias postagens*/
 	@JsonIgnoreProperties("tema")
-	private List<PostModel> post;
-	
+	private List<PostModel> postagem;
+
+
 	public long getId() {
 		return id;
 	}
@@ -51,20 +51,21 @@ public class Tema {
 	}
 
 
-	public List<PostModel> getPost() {
-		return post;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 
-	public void setPost(List<PostModel> post) {
-		this.post = post;
+	public List<PostModel> getPostagem() {
+		return postagem;
 	}
 
 
-	public void setDescricao(String descrição) {
-		this.descricao = descrição;
+	public void setPostagem(List<PostModel> postagem) {
+		this.postagem = postagem;
 	}
 	
+
 	
 	
 	
