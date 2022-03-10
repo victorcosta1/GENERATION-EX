@@ -76,6 +76,14 @@
 			<artifactId>springfox-boot-starter</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+		
+		<!-- DEPENDENCIA DO SWAGGER -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.5.13</version>
+		</dependency>
+		
 	</dependencies>
 
 
