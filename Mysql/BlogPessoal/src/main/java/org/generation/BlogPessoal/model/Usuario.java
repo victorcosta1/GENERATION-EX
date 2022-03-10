@@ -21,7 +21,7 @@ public class Usuario {
 		
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	
 	@NotNull
@@ -93,5 +93,7 @@ public class Usuario {
 	public void setPostagem(List<PostModel> postagem) {
 		this.postagem = postagem;
 	}
+	
+	
 	
 }
