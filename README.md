@@ -1,1 +1,1 @@
-Aulas JAVA desenvolvidas no BOOTCAMP da Generation.
+Aulas desenvolvidas no BOOTCAMP da Generation.
