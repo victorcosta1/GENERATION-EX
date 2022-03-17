@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+
+/* ===== Scrollbar CSS ===== */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #7591ff #f5f5f550;
+  }
+
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f5f5f552;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #7591ff;
+    border-radius: 10px;
+    border: 3px outset #ffffff;
+  }
+
+
+
+
+*{
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    background-image: url(img/fundo02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+
+    display: flex;
+    border-radius: 0px 0px 50px 50px / 0px 0px 30px 30px;
+
+
+    background: rgba(231, 231, 231, 0.178);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+header nav ul li{
+    display: flex;
+    padding: 15px;
+    
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+header nav ul li a{
+    color: rgb(231, 231, 231);
+}
+
+header nav ul li a:hover{
+    text-decoration: underline rgba(235, 207, 247, 0.856) 2px;
+}
+
+#img-logo{
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.container{
+   text-align: center;
+}
+
+.casas1 img{
+    height: 150px;
+    width: 150px;
+}
+
+#grif-img{
+    height: 150px;
+    width: 250px;
+}
+
+.casas2 img{
+    height: 150px;
+    width: 150px;
+}
+
+
+.h1-title{
+    font-size: 45px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.text-div p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.casas1, .casas2 p{
+    font-size: 25px;
+}
+

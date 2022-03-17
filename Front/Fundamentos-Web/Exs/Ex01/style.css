@@ -28,6 +28,6 @@ a:visited{
     font-size: 70px;
 }
 
-.container{
-    
+container{
+    display: flex;
 }
