@@ -30,6 +30,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -154,5 +155,34 @@ header nav ul li a{
 
 
 
+.container-casas{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
 
 
+.container-casas > .casas1 {
+    display: inline-block;
+   justify-content: center;
+}
+
+.container-casas > .casas1 > li {
+    flex-direction: row;
+   
+}
+
+
+/*--------------------------------------------------*/
+
+.ft-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-img img{
+    width: 65px;
+    height: 65px;
+    
+}

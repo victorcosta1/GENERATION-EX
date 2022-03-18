@@ -1,9 +1,13 @@
 
 
 //puxamos o id do input com o id nome 
-var nome = window.document.querySelector('#nome')
+let nome = window.document.querySelector('#nome')
+let email = window.document.querySelector('#email')
+let assunto = window.document.querySelector('#assunto')
 
-var okNome = false
+let okNome = false
+let okEmail = false
+let okAssunto = false
 
 //podemos tambem fazer isso com  var nome = window.document.querySelector('#nome') caso for uma classe ('.nome')
 
@@ -14,7 +18,7 @@ function validarNome(){
         txtNome.innerHTML = 'nome invalido'
         txtNome.style.color = 'red'
         okNome = false
-    }
+}
 
     else{
         txtNome.innerHTML = 'deu bom'
@@ -25,11 +29,48 @@ function validarNome(){
 }
 
     function enviar(){
-        if(okNome == true){
+        if(okNome == true && okEmail == true && okAssunto == true){
             alert('Mensagem enviada com sucesso');
         }
 
         else{
             alert('Preencha corretamente');
         }
+}
+
+
+    function validarEmail(){
+        let txtEmail = document.querySelector('#txtEmail')
+
+        if(email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1) {
+            txtEmail.innerHTML = 'Email invalido'
+            txtEmail.style.color = 'red'
+            okEmail = false
+        }
+
+        else{
+            txtEmail.innerHTML = 'Email Valido'
+            txtEmail.style.color = 'green'
+            okEmail = true
+        }
+
+}
+
+    function validarAssunto(){
+        let txtAssunto = document.querySelector('#txtAssunto')
+
+        if(assunto.value.length >= 100){
+            txtAssunto.innerHTML = 'Texto muito grande, digite no maximo 100 caracteres'
+            txtAssunto.style.color = 'red'
+            txtAssunto.style.display = 'block'
+            okAssunto = false
+        }
+
+        else{
+            txtAssunto.style.display = 'none'
+            okAssunto = true
+        }
     }
+
+
+

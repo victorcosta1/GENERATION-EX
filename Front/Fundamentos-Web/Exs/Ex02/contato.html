@@ -28,20 +28,22 @@
                     <form>
                         <label for="nome">Nome:</label><br>
                         <input type="text" id="nome" onkeyup="validarNome()" value="">
-                        <div id="txtNome">
+                        <div id="txtNome"></div>
             
-                        </div>
-            
-                        <br>
-                        <br>
+                        
+                        
                         <label for="email">Email:</label><br>
-                        <input type="email" id="email">
-            
-                        <br>
-                        <br>
+                        <input type="email" id="email" onkeyup="validarEmail()" value="">
+                        <div id="txtEmail"></div>
+
+                        
+                        
                         <label for="assunto">Assunto:</label><br>
-                        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                        <textarea name="assunto" id="assunto" cols="30" rows="10" onkeyup="validarAssunto()"></textarea>
+                        <div id="txtAssunto"></div>
+                        
                         <p><button class="btn" onclick="enviar()" value="enviar" type="submit">Enviar</button></p>
+
                     </form>
         </div>
     </main>
