@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+
+/* ===== Scrollbar CSS ===== */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #7591ff #f5f5f550;
+  }
+
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f5f5f552;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #7591ff;
+    border-radius: 10px;
+    border: 3px outset #ffffff;
+  }
+
+/*------------------------------------------------------------*/
+
+
+*{
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    color: white;
+    background-image: url(img/hog-noite.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*------------------------------------------------------------*/
+
+header{
+
+    display: flex;
+    border-radius: 0px 0px 50px 50px / 0px 0px 30px 30px;
+
+    background: rgba( 8, 38, 100, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+header nav ul li{
+    display: flex;
+    padding: 15px;
+    
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+header nav ul li a{
+    color: rgb(231, 231, 231);
+}
+
+#img-logo{
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+  opacity: 0.5;
+}
+
+/*------------------------------------------------------------*/
+
+#home:hover{
+  color: #ae0001;
+  transition: 0.4s;
+}
+
+#casas:hover{
+  color: #082664;
+  transition: 0.4s;
+}
+
+#fundadores:hover{
+  color: #E9AC2D;
+  transition: 0.4s;
+}
+
+#contatos:hover{
+  color: #1a472a;
+  transition: 0.4s;
+}
+
+
+
+/*------------------------------------------------------------*/
+
+main{
+  padding: 15px;
+}
+
+
+.container{
+   text-align: center;
+}
+
+.form-container{
+  /*background-color: #082664;*/
+  width: 550px;
+  height: 545px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: auto;
+
+  border-radius: 45px;
+
+  background: rgba( 8, 38, 100, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(8,38,100,0.71); 
+  box-shadow: 0px 0px 10px 5px rgba(8,38,100,0.71);
+
+}
+
+
+
+form input{
+  padding: 5px;
+  
+
+  background: rgba( 8, 38, 100, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  color: white;
+}
+
+form input:active{
+  background-color: #08276467;
+}
+
+
+form input:focus{
+  background-color: #0e31796c;
+  border-color: #7998ffa6;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+form textarea{
+  background: rgba( 8, 38, 100, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  color: white;
+}
+
+form textarea:focus{
+  background-color: #0e31796c;
+  border-color: #003cffa6;
+}
+
+.btn{
+  background: rgba( 8, 38, 100, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 8px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  padding: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #003cff44;
+}
+

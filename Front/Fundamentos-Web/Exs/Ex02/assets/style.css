@@ -34,11 +34,12 @@
 
 body{
     color: white;
-    background-image: url(img/fundo02.jpg);
+    background-image: url(img/fundo03.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -77,14 +78,15 @@ header nav ul li a{
     color: rgb(231, 231, 231);
 }
 
-header nav ul li a:hover{
+/*header nav ul li a:hover{
     text-decoration: underline rgba(235, 207, 247, 0.856) 2px;
-}
+}*/
 
 #img-logo{
     height: 100px;
     width: 100px;
     padding-left: 10px;
+    opacity: 0.5;
 }
 
 .container{
@@ -125,4 +127,32 @@ header nav ul li a:hover{
 .casas1, .casas2 p{
     font-size: 25px;
 }
+
+
+
+#home:hover{
+    color: #ae0001;
+    transition: 0.4s;
+  }
+  
+  #casas:hover{
+    color: #082664;
+    transition: 0.4s;
+  }
+  
+  #fundadores:hover{
+    color: #E9AC2D;
+    transition: 0.4s;
+  }
+  
+  #contatos:hover{
+    color: #1a472a;
+    transition: 0.4s;
+  }
+
+/*------------------------------------*/
+
+
+
+
 

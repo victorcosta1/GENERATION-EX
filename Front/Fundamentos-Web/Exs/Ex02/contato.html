@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style-contato.css">
+    <title>Contato!</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="assets/img/logos/harry.png" alt="Simbolo reliquias da morte" id="img-logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="casas.html" id="casas">Casas</a></li>
+                <li><a href="fundadores.html" id="fundadores">Fundadores</a></li>
+                <li><a href="contato.html" id="contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+            <h1>Entre em contato:</h1>
+                    <form>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" onkeyup="validarNome()" value="">
+                        <div id="txtNome">
+            
+                        </div>
+            
+                        <br>
+                        <br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email">
+            
+                        <br>
+                        <br>
+                        <label for="assunto">Assunto:</label><br>
+                        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                        <p><button class="btn" onclick="enviar()" value="enviar" type="submit">Enviar</button></p>
+                    </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="assets/Js/script.js">
+
+    </script>
+
+</body>
+</html>
