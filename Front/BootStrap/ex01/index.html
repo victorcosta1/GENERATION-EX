@@ -158,7 +158,8 @@
           ela várias formas de expressão artística inovadoras vieram à tona.
           Na sua sequência, Oswald de Andrade publica o “Manifesto da Poesia Pau-Brasil”, que viria a ser criticado pelo
           grupo que veio a seguir, o Movimento Verde-Amarelo, de 1926.</p>
-        <a href="https://www.todamateria.com.br/movimento-pau-brasil/" class="btn btn-outline-danger" target="_blank">Leia
+        <a href="https://www.todamateria.com.br/movimento-pau-brasil/" class="btn btn-outline-danger"
+          target="_blank">Leia
           mais...</a>
       </div>
     </div>
@@ -399,7 +400,8 @@
         <p class="card-text">Foi um pintor brasileiro. Apesar da influência cubista e surrealista, foi um dos mais
           típicos pintores brasileiros pela representação dos temas populares, como o carnaval, as mulatas, o samba, as
           favelas e os operários</p>
-        <a href="https://www.infoescola.com/biografias/di-cavalcanti/" class="btn btn-outline-danger" target="_blank">Leia
+        <a href="https://www.infoescola.com/biografias/di-cavalcanti/" class="btn btn-outline-danger"
+          target="_blank">Leia
           mais...</a>
       </div>
     </div>
@@ -522,24 +524,46 @@
 
 
 
-  
-    <div class="text-center">
-      <h2 class="h2-maluco" id="contato">Contato</h2>
-    </div>
-    
 
-    
-    <div class="d-flex justify-content-around" id="contato">
-      <div class="row">
-        <div class="col-6"><a href="https://github.com/victorcosta1"><img src="assets/img/icons8-github.svg" alt=""></a></div>
-        <div class="col-6"><a href="https://www.linkedin.com/in/victor-costa-/"><img src="assets/img/icons8-linkedin.svg" alt=""></a></div>
+  <div class="text-center">
+    <h2 class="h2-maluco" id="contato">Contato</h2>
+  </div>
+
+
+
+  <div class="d-flex justify-content-around" id="contato">
+    <div class="row">
+      <div class="col-6"><a href="https://github.com/victorcosta1"><img src="assets/img/icons8-github.svg" alt=""></a>
       </div>
+      <div class="col-6"><a href="https://www.linkedin.com/in/victor-costa-/"><img src="assets/img/icons8-linkedin.svg"
+            alt=""></a></div>
     </div>
+  </div>
 
 
+  <div class="contato2">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Nome</label>
+        <input type="nome" class="form-control" id="nome" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Mensagem</label>
+        <textarea class="form-control" id="msg" rows="3" onkeyup="validaMensagem()"></textarea>
+        <div id="txtMensagem"></div>
+      </div>
+      <button type="button" class="btn btn-outline-success" onclick="enviar()">Enviar</button>
+    </form>
+  </div>
 
 
-    
 
   <!--Script BootStrap-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

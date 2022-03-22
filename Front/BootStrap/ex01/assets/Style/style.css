@@ -94,3 +94,20 @@ iframe{
 .nav-item > a:hover{
     color: white;
 }
+
+.contato2{
+    display: flex;
+    width: 550px;
+    justify-content: center;
+    margin: auto;
+    background-color: #F72525;
+    border-radius: 25px;
+    box-shadow: 6px 11px 23px -8px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 6px 11px 23px -8px rgba(0,0,0,0.39);
+    -moz-box-shadow: 6px 11px 23px -8px rgba(0,0,0,0.39);
+}
+
+.contato2 label{
+    color: white;
+}
+
