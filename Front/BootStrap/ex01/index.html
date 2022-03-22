@@ -1,223 +1,556 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/Style/style.css">
-    <title>Modernismo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/Style/style.css">
+  <title>Modernismo</title>
 </head>
+
 <body>
-    
-
-    <header class="sticky-top" id="inicio">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#inicio">Modernismo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#historia">História</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Artistas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Obras</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-
-    <div class="text-center h2-maluco justfy-text" id="inicio">
-        <h2>O que foi a Semana de Arte Moderna?</h2>
-    </div>
-
-        <div class="text-center">
-            <p>
-                O modernismo no Brasil foi um movimento artístico, cultural e literário  que se caracterizou pela liberdade estética, o nacionalismo e a crítica social.
-            
-                Inspirado pelas inovações artísticas das vanguardas europeias (cubismo, futurismo, dadaísmo, expressionismo e surrealismo), ele teve como marco inicial a Semana de Arte Moderna, que aconteceu entre os dias 11 e 18 de fevereiro de 1922, no Theatro Municipal de São Paulo.
-            </p>
-        </div>
-    
-        <!--Carrosel-->
 
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/2.png" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/3.png" alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/4.jpg" alt="Third slide">
-              </div>
-              
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+  <header class="sticky-top" id="inicio">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#inicio">Modernismo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#historia">História</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#artistas">Artistas</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#obras">Obras</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="text-center h2-maluco justfy-text" id="home">
+    <h2>O que foi a Semana de Arte Moderna?</h2>
+  </div>
+
+  <div class="text-center">
+    <p>
+      O modernismo no Brasil foi um movimento artístico, cultural e literário que se caracterizou pela liberdade
+      estética, o nacionalismo e a crítica social.
+
+      Inspirado pelas inovações artísticas das vanguardas europeias (cubismo, futurismo, dadaísmo, expressionismo e
+      surrealismo), ele teve como marco inicial a Semana de Arte Moderna, que aconteceu entre os dias 11 e 18 de
+      fevereiro de 1922, no Theatro Municipal de São Paulo.
+    </p>
+  </div>
+
+  <!--Carrosel-->
 
 
-
-
-
-        <!-------------------------------------------------------->
-
-        <div class="text-center">
-            <h2 class="h2-maluco" id="historia">História</h2>
-        </div>
-        <div>
-            <p id="pd-fs">
-                No país, o cenário era de insatisfação, pois muitas pessoas consideravam a política, a economia e a cultura estagnadas. Parte disso estava relacionado com o modelo político vigente baseado na política do café com leite.
-
-                Com o poder concentrado nas mãos de grandes fazendeiros, paulistas e mineiros se revezavam no poder. Isso ocorreu até 1930, quando um golpe de estado depôs o presidente Washington Luís, pondo fim à República velha.
-                
-                Foi nesse cenário de incertezas que um grupo de artistas, empenhados em propor uma renovação estética na arte, apresentam um novo olhar, mais libertário, contrário ao tradicionalismo e o rigor estético.
-                
-                Assim, surge a Semana de Arte Moderna, liderada pelo chamado “Grupo dos cinco”: Anita Malfatti, Mário de Andrade, Menotti del Picchia, Oswald de Andrade e Tarsila do Amaral.
-                
-                Esse evento, que reuniu diversas apresentações e exposições, colaborou com o surgimento de revistas, manifestos, movimentos artísticos e grupos com experimentações estéticas inovadoras. Tudo isso permitiu consolidar as ideias modernistas e inaugurar o movimento no país.
-            </p>
-        </div>
-        <!--Fases do movimento-->
-        <div class="text-center">
-            <h2 class="tl-fs">As Fases do movimento</h2>
-        </div>
-
-        <div>
-            <h4 class="text-left tl-fs-txt">Primeira fase modernista no Brasil (1922-1930)</h4>
-        </div>
-        
-        <div class="text-justify">
-            <p id="pd-fs">
-                A primeira fase do modernismo esteve voltada para a busca de uma identidade nacional. Nesse momento, diversos artistas aproveitaram a agitação causada pela semana de arte moderna para romper com os modelos preconcebidos que, segundo eles, eram limitados e impediam a criatividade.
-
-                Inspirado nas ideias das vanguardas artísticas europeias, os artistas buscam uma renovação estética. Por esse motivo, ela é conhecida como a "fase heroica", sendo a mais radical de todas. É também chamada de "fase de destruição", pois propunha a destruição dos modelos que vigoravam no cenário artístico-cultural do país.
-                
-                A consolidação de uma arte genuinamente brasileira possibilitou a valorização da cultura e do folclore. Junto a isso, os artistas estabelecem a liberdade formal, rompendo com a sintaxe e utilizando uma linguagem mais coloquial para se aproximar da fala cotidiana.
-                
-                Muitas revistas e manifestos foram criados, o que fez surgir alguns movimentos, dos quais se destacam: o movimento pau-brasil, o movimento antropofágico, o movimento regionalista e o movimento verde-amarelo.</p>
-        </div>
-
-        <div class="mov">
-            <h5 class="text-left">Saiba mais sobre cada um dos movimentos modernistas da primeira fase:</h5>
-        </div>
-
-        <!--Carding Mov..-->
-            <div class="container-carding d-flex justify-content-around">
-                <div class="card" style="width: 18rem; border-radius: 25px;">
-                    <img class="card-img-top" src="assets/img/movimento-pau-brasil.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Movimento Pau-Brasil</h5>
-                      <p class="card-text">Influenciado pelas vanguardas europeias decorria a Semana de Arte Moderna, em 1922 e com ela várias formas de expressão artística inovadoras vieram à tona.
-                        Na sua sequência, Oswald de Andrade publica o “Manifesto da Poesia Pau-Brasil”, que viria a ser criticado pelo grupo que veio a seguir, o Movimento Verde-Amarelo, de 1926.</p>
-                      <a href="https://www.todamateria.com.br/movimento-pau-brasil/" class="btn btn-outline-dark" target="_blank">Leia mais...</a>
-                    </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem; border-radius: 25px;">
-                    <img class="card-img-top" src="assets/img/movimento-antropofagico.png" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Movimento Antropofágico</h5>
-                      <p class="card-text">O Movimento Antropofágico foi uma corrente de vanguarda que marcou a primeira fase modernista no Brasil.
-                        Liderado por Oswald de Andrade (1890-1954) e Tarsila do Amaral (1886-1973), a finalidade principal era de estruturar uma cultura de caráter nacional.
-                        A divulgação do movimento era realizado na Revista de Antropofagia, publicada em São Paulo. Já o primeiro número trazia o Manifesto Antropofágico.</p>
-                      <a href="https://www.todamateria.com.br/movimento-antropofagico/" class="btn btn-outline-dark" target="_blank">Leia mais...</a>
-                    </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem; border-radius: 25px;">
-                    <img class="card-img-top" src="assets/img/manifesto-regionalista.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Manifesto Regionalista</h5>
-                      <p class="card-text">Embora chamado de manifesto, este foi, na verdade, um conjunto de declarações que foram feitas pelo Grupo modernista-regionalista de Recife.
-                        À semelhança de outros grupos, ele era formado por escritores em virtude das opiniões concordantes acerca da renovação cultural que estava sendo vivida no nosso país.
-                        O grupo modernista-regionalista de Recife era liderado pelo destacado sociólogo pernambucano Gilberto Freyre (1900-1987).</p>
-                      <a href="https://www.todamateria.com.br/manifesto-regionalista/" class="btn btn-outline-dark" target="_blank">Leia mais...</a>
-                    </div>
-                  </div>
-            </div>
-
-            <div>
-                <h5 class="tilte-h5">Características da primeira fase modernista</h5>
-            </div>
-
-            <div>
-                <p>
-                  <ul>
-                    <li>fase mais radical e nacionalista;</li>
-                        
-                    <li>busca de uma identidade nacional;</li>
-                    
-                    <li>maior liberdade formal com rupturas da sintaxe;</li>
-                    
-                    <li> presença de regionalismos e linguagem informal;</li>
-
-                    <li>valorização do folclore, arte e cultura popular brasileira;</li>
-
-                    <li>uso de versos livres, que não possuem métrica (medida);</li>
-                    
-                    <li>utilização do sarcasmo e da ironia;</li>
-
-                    <li>uso de versos brancos, com ausência de rimas.</li>
-                  </ul>
-                </p>
-            </div>
-
-
-            <h5 class="text-center">Video sobre:</h5>
-
-            <div class="video d-flex justify-content-center">
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/D8xQel1nhxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-          <!---------------------------------------------->
-    <!--Sobre-->
-    <div class="container text-center">
-        <div class="row">
-          <div class="col-sm-4 ">
-            One of three columns
-          </div>
-          <div class="col-sm-4">
-            One of three columns
-          </div>
-          <div class="col-sm-4">
-            One of three columns
-          </div>
-        </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/img/2.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/3.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/4.jpg" alt="Third slide">
       </div>
 
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
 
-      
 
 
-    <!--Script BootStrap-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-------------------------------------------------------->
+
+  <div class="text-center">
+    <h2 class="h2-maluco" id="historia">História</h2>
+  </div>
+  <div>
+    <p id="pd-fs">
+      No país, o cenário era de insatisfação, pois muitas pessoas consideravam a política, a economia e a cultura
+      estagnadas. Parte disso estava relacionado com o modelo político vigente baseado na política do café com leite.
+
+      Com o poder concentrado nas mãos de grandes fazendeiros, paulistas e mineiros se revezavam no poder. Isso ocorreu
+      até 1930, quando um golpe de estado depôs o presidente Washington Luís, pondo fim à República velha.
+
+      Foi nesse cenário de incertezas que um grupo de artistas, empenhados em propor uma renovação estética na arte,
+      apresentam um novo olhar, mais libertário, contrário ao tradicionalismo e o rigor estético.
+
+      Assim, surge a Semana de Arte Moderna, liderada pelo chamado “Grupo dos cinco”: Anita Malfatti, Mário de Andrade,
+      Menotti del Picchia, Oswald de Andrade e Tarsila do Amaral.
+
+      Esse evento, que reuniu diversas apresentações e exposições, colaborou com o surgimento de revistas, manifestos,
+      movimentos artísticos e grupos com experimentações estéticas inovadoras. Tudo isso permitiu consolidar as ideias
+      modernistas e inaugurar o movimento no país.
+    </p>
+  </div>
+  <!--Fases do movimento-->
+  <div class="text-center">
+    <h2 class="tl-fs">As Fases do movimento</h2>
+  </div>
+
+  <div>
+    <h4 class="text-left tl-fs-txt">Primeira fase modernista no Brasil (1922-1930)</h4>
+  </div>
+
+  <div class="text-justify">
+    <p id="pd-fs">
+      A primeira fase do modernismo esteve voltada para a busca de uma identidade nacional. Nesse momento, diversos
+      artistas aproveitaram a agitação causada pela semana de arte moderna para romper com os modelos preconcebidos que,
+      segundo eles, eram limitados e impediam a criatividade.
+
+      Inspirado nas ideias das vanguardas artísticas europeias, os artistas buscam uma renovação estética. Por esse
+      motivo, ela é conhecida como a "fase heroica", sendo a mais radical de todas. É também chamada de "fase de
+      destruição", pois propunha a destruição dos modelos que vigoravam no cenário artístico-cultural do país.
+
+      A consolidação de uma arte genuinamente brasileira possibilitou a valorização da cultura e do folclore. Junto a
+      isso, os artistas estabelecem a liberdade formal, rompendo com a sintaxe e utilizando uma linguagem mais coloquial
+      para se aproximar da fala cotidiana.
+
+      Muitas revistas e manifestos foram criados, o que fez surgir alguns movimentos, dos quais se destacam: o movimento
+      pau-brasil, o movimento antropofágico, o movimento regionalista e o movimento verde-amarelo.</p>
+  </div>
+
+  <div class="mov">
+    <h5 class="text-left">Saiba mais sobre cada um dos movimentos modernistas da primeira fase:</h5>
+  </div>
+
+  <!--Carding Mov..-->
+  <div class="container-carding d-flex justify-content-around">
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/movimento-pau-brasil.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Movimento Pau-Brasil</h5>
+        <p class="card-text">Influenciado pelas vanguardas europeias decorria a Semana de Arte Moderna, em 1922 e com
+          ela várias formas de expressão artística inovadoras vieram à tona.
+          Na sua sequência, Oswald de Andrade publica o “Manifesto da Poesia Pau-Brasil”, que viria a ser criticado pelo
+          grupo que veio a seguir, o Movimento Verde-Amarelo, de 1926.</p>
+        <a href="https://www.todamateria.com.br/movimento-pau-brasil/" class="btn btn-outline-danger" target="_blank">Leia
+          mais...</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/movimento-antropofagico.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Movimento Antropofágico</h5>
+        <p class="card-text">O Movimento Antropofágico foi uma corrente de vanguarda que marcou a primeira fase
+          modernista no Brasil.
+          Liderado por Oswald de Andrade (1890-1954) e Tarsila do Amaral (1886-1973), a finalidade principal era de
+          estruturar uma cultura de caráter nacional.
+          A divulgação do movimento era realizado na Revista de Antropofagia, publicada em São Paulo. Já o primeiro
+          número trazia o Manifesto Antropofágico.</p>
+        <a href="https://www.todamateria.com.br/movimento-antropofagico/" class="btn btn-outline-danger"
+          target="_blank">Leia mais...</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/manifesto-regionalista.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Manifesto Regionalista</h5>
+        <p class="card-text">Embora chamado de manifesto, este foi, na verdade, um conjunto de declarações que foram
+          feitas pelo Grupo modernista-regionalista de Recife.
+          À semelhança de outros grupos, ele era formado por escritores em virtude das opiniões concordantes acerca da
+          renovação cultural que estava sendo vivida no nosso país.
+          O grupo modernista-regionalista de Recife era liderado pelo destacado sociólogo pernambucano Gilberto Freyre
+          (1900-1987).</p>
+        <a href="https://www.todamateria.com.br/manifesto-regionalista/" class="btn btn-outline-danger"
+          target="_blank">Leia mais...</a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h5 class="tilte-h5">Características da primeira fase modernista</h5>
+  </div>
+
+  <div>
+    <p>
+    <ul>
+      <li>fase mais radical e nacionalista;</li>
+
+      <li>busca de uma identidade nacional;</li>
+
+      <li>maior liberdade formal com rupturas da sintaxe;</li>
+
+      <li> presença de regionalismos e linguagem informal;</li>
+
+      <li>valorização do folclore, arte e cultura popular brasileira;</li>
+
+      <li>uso de versos livres, que não possuem métrica (medida);</li>
+
+      <li>utilização do sarcasmo e da ironia;</li>
+
+      <li>uso de versos brancos, com ausência de rimas.</li>
+    </ul>
+    </p>
+  </div>
+
+
+  <h5 class="text-center">Video sobre:</h5>
+
+  <div class="video d-flex justify-content-center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D8xQel1nhxg" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+
+  <!---------------------------------Segunda fase----------------------------------------->
+
+
+  <div>
+    <h4 class="text-left tl-fs-txt">Segunda fase modernista no Brasil (1930-1945)</h4>
+  </div>
+
+
+  <div class="text-justify">
+    <p id="pd-fs">
+      A primeira fase do modernismo esteve voltada para a busca de uma identidade nacional. Nesse momento, diversos
+      artistas aproveitaram a agitação causada pela semana de arte moderna para romper com os modelos preconcebidos que,
+      segundo eles, eram limitados e impediam a criatividade.
+
+      Inspirado nas ideias das vanguardas artísticas europeias, os artistas buscam uma renovação estética. Por esse
+      motivo, ela é conhecida como a "fase heroica", sendo a mais radical de todas. É também chamada de "fase de
+      destruição", pois propunha a destruição dos modelos que vigoravam no cenário artístico-cultural do país.
+
+      A consolidação de uma arte genuinamente brasileira possibilitou a valorização da cultura e do folclore. Junto a
+      isso, os artistas estabelecem a liberdade formal, rompendo com a sintaxe e utilizando uma linguagem mais coloquial
+      para se aproximar da fala cotidiana.
+
+      Muitas revistas e manifestos foram criados, o que fez surgir alguns movimentos, dos quais se destacam: o movimento
+      pau-brasil, o movimento antropofágico, o movimento regionalista e o movimento verde-amarelo.</p>
+  </div>
+
+  <div>
+    <h5 class="tilte-h5">Características da segunda fase modernista</h5>
+  </div>
+
+  <div>
+    <p>
+    <ul>
+      <li>fase de consolidação do modernismo no Brasil;</li>
+
+      <li>vasta produção literária em poesia e prosa (poesia de 30 e romance de 30);</li>
+
+      <li>valorização do regionalismo e da linguagem popular;</li>
+
+      <li>utilização de versos livres, sem métrica, e brancos, sem rimas;</li>
+
+      <li>crítica à realidade social brasileira;</li>
+
+      <li>valorização da diversidade cultural do país;</li>
+
+      <li>temática cotidiana, social, histórica e religiosa.</li>
+    </ul>
+    </p>
+  </div>
+
+  <h5 class="text-center">Video sobre:</h5>
+
+  <div class="video d-flex justify-content-center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YlqUollEjyo" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <!----------------------------------------------------------------------------------------------->
+
+  <!---------------------------------terceira fase----------------------------------------->
+
+  <div>
+    <h4 class="text-left tl-fs-txt">Terceira fase modernista no Brasil (1945-1960)</h4>
+  </div>
+
+
+  <div class="text-justify">
+    <p id="pd-fs">
+      Com o fim da Segunda Guerra Mundial e o processo de redemocratização do país, em 1945, a arte brasileira produzida
+      na terceira fase do modernismo ganha novos contornos e linguagens. Muitos críticos literários defendem que essa
+      fase terminou em 1960, já outros acreditam que ela perdura até o presente.
+
+      Esse momento, que ficou conhecido como “Geração de 45”, reuniu um grupo de escritores, muitas vezes chamados de
+      neoparnasianos, que buscavam uma poesia mais equilibrada e objetiva.
+
+      Assim, a liberdade formal, característica das fases anteriores, é deixada de lado para dar lugar à métrica e o
+      culto à forma, com produções inspiradas no Parnasianismo e Simbolismo.
+
+      Além da poesia, há uma diversidade grande na prosa com a prosa urbana, intimista e regionalista.</p>
+  </div>
+
+  <div>
+    <h5 class="tilte-h5">Características da terceira fase modernista</h5>
+  </div>
+
+  <div>
+    <p>
+    <ul>
+      <li>linguagem mais objetiva e equilibrada;</li>
+
+      <li>influência do Parnasianismo e Simbolismo;</li>
+
+      <li>oposição à liberdade formal;</li>
+
+      <li>forte preocupação com a estética e a perfeição;</li>
+
+      <li>valorização da métrica e da rima;</li>
+
+      <li>temática social e humana.</li>
+    </ul>
+    </p>
+  </div>
+
+
+  <h5 class="text-center">Video sobre:</h5>
+
+  <div class="video d-flex justify-content-center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bnvEiyNhjaM" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <!--------------------------------------------------------------------------------->
+
+
+
+  <div class="text-center">
+    <h2 class="h2-maluco" id="artistas">Artistas</h2>
+  </div>
+
+  <div>
+    <h5>Os pintores modernistas que mais se destacaram foram:</h5>
+  </div>
+
+
+  <!--Carding Mov..-->
+
+  <div class="container-carding d-flex justify-content-around">
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/anita-malfatti-retrato.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Anita Malfatti (1889-1964)</h5>
+        <p class="card-text">Anita Catarina Malfatti foi uma pintora, desenhista, gravadora, ilustradora e professora
+          ítalo-brasileira. Anita Malfatti era portadora de deficiência motora. É considerada pioneira da Arte Moderna
+          no Brasil.</p>
+        <a href="https://brasilescola.uol.com.br/artes/anita-malfatti.htm#:~:text=Anita%20Malfatti%2C%20pintora%20brasileira%2C%20nasceu,of%20Art%2C%20nos%20Estados%20Unidos."
+          class="btn btn-outline-danger" target="_blank">Leia
+          mais...</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/m_tarsila2.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Tarsila do Amaral (1886-1973)</h5>
+        <p class="card-text">Tarsila de Aguiar do Amaral foi uma pintora, desenhista e tradutora brasileira. Ela é
+          considerada uma das principais artistas modernistas latino-americanas, além de ser considerada a pintora que
+          melhor alcançou as aspirações brasileiras de expressão nacionalista nesse estilo artístico.</p>
+        <a href="https://www.ebiografia.com/tarsila_amaral/#:~:text=Tarsila%20do%20Amaral%20(1886%2D1973,os%20movimentos%20do%20per%C3%ADodo%20Modernista."
+          class="btn btn-outline-danger" target="_blank">Leia mais...</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Segunda linha-->
+
+
+  <div class="container-carding d-flex justify-content-around">
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/Di-Cavalcanti-15.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Di Cavalcanti (1897-1976)</h5>
+        <p class="card-text">Foi um pintor brasileiro. Apesar da influência cubista e surrealista, foi um dos mais
+          típicos pintores brasileiros pela representação dos temas populares, como o carnaval, as mulatas, o samba, as
+          favelas e os operários</p>
+        <a href="https://www.infoescola.com/biografias/di-cavalcanti/" class="btn btn-outline-danger" target="_blank">Leia
+          mais...</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border-radius: 25px;">
+      <img class="card-img-top" src="assets/img/candido2-portinari-.jpg.crdownload" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cândido Portinari (1903-1962)</h5>
+        <p class="card-text">Foi um pintor brasileiro, um dos principais nomes do Modernismo. Suas obras alcançaram fama
+          internacional, entre elas, o painel Guerra e Paz, na sede da ONU em Nova Iorque, e a série Emigrantes, do
+          acervo do Museu de Arte de São Paulo (MASP).</p>
+        <a href="https://www.guiadasartes.com.br/candido-portinari/biografia" class="btn btn-outline-danger"
+          target="_blank">Leia mais...</a>
+      </div>
+    </div>
+  </div>
+
+
+  <p class="p-doidao">
+    Além dos 4 citados, temos Oswald de Andrade (1890-1954), Mário de Andrade (1893-1945),Manuel Bandeira (1886-1968),
+    Carlos Drummond de Andrade (1902-1987), Rachel de Queiroz (1902-2003), Jorge Amado (1912-2001),
+    Érico Veríssimo (1905-1975), Graciliano Ramos (1892-1953), Vinícius de Moraes (1913-1980),
+    Cecília Meireles (1901-1964), João Cabral de Melo Neto (1920-1999), Clarice Lispector (1920-1977),
+    Guimarães Rosa (1908-1967) e etc...
+
+  </p>
+
+
+
+  <div class="text-center">
+    <h2 class="h2-maluco" id="obras">Obras</h2>
+  </div>
+
+  <div>
+    <h5>As obras modernistas que mais se destacaram foram:</h5>
+  </div>
+
+
+  <div class="container-carding d-flex justify-content-around">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/os-retirantes-portinari.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Os retirantes (1944) – Cândido Portinari<h5>
+            <p class="card-text p-txt-c">Nessa obra, Portinari aborda o tema da migração nordestina, triste realidade de
+              uma parte da população brasileira, que deixa seu lugar de origem em busca de melhores condições de vida em
+              outras partes do país.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/o-ladrao-oswald.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">O Ladrão (1955) – Oswald Goeldi</h5>
+        <p class="card-text p-txt-c">“O Ladrão”, de Oswaldo Goeldi, é uma xilogravura a cores feita em 1955. Feito para
+          o conto O Ladrão, de Mário de Andrade, que conta a história de como um jovem contagia todos os moradores de
+          uma vila para capturar um ladrão, a história possui uma estética comedida, séria e consegue contar a história
+          sem abusar de seus elementos mais simples.</p>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/o-homem-amarelo-anitta.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">O Homem Amarelo (1917)- Anitta Malfatti</h5>
+        <p class="card-text p-txt-c">A pintura é um retrato que segundo Anita, de um homem pobre, excluído e
+          desconhecido, um imigrante italiano que lhe pediu para que ela o pintasse, com uma “expressão desesperada”.
+          Ele apresenta uma aguda melancolia em seu olhar vago e distante. Mesmo estando elegantemente trajado de terno
+          e gravata, seu paletó está com uma aparência desgastada e mal ajeitado no corpo contorcido, transpondo os
+          limites da tela, característica comum aos trabalhos da pintora. Seus olhos escuros são delimitados por
+          contornos pretos, com espessas sobrancelhas em forma de acento circunflexo.</p>
+      </div>
+    </div>
+  </div>
+  <!--Linha 2-->
+  <div class="container-carding d-flex justify-content-around">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/abaporu.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cândido Portinari (1903-1962)</h5>
+        <p class="card-text p-txt-c">Esta obra marca a fase antropofágica da pintora Tarsila de Amaral que ocorreu entre
+          1928 e 1930. É possível identificar traços característicos da artistas como a escolha de cores fortes, a
+          inclusão de temas imaginários e a alteração da realidade.
+
+          Na pintura vemos um homem com grandes pés e mãos, e ainda o sol e um cacto. Estes elementos podem representar
+          o trabalho físico que era o ofício da maior parte da população brasileira naquele período.
+
+          Por outro lado, a cabeça pequena pode significar a falta de pensamento crítico, que se limita a trabalhar com
+          força, mas sem pensar muito, sendo então uma possível crítica à sociedade daquela época.</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/a-negra.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">A Negra (1923) – Tarsila do Amaral</h5>
+        <p class="card-text p-txt-c">A obra A Negra, de Tarsila do Amaral retrata o mito da negra na formação do
+          povo brasileiro, elaborada a partir das estórias contadas pelas empregadas negras
+          da fazenda. As “pretalhonas” com redondezas afrodisíacas de corpo eram as
+          escolhidas para pajens, mucamas e molecas, e trocavam aspectos íntimos de
+          influência com as famílias brasileiras. O mito da negra é (e era) o de possuir um
+          grande apetite sexual enquanto o homem civilizado teria um apetite sexual
+          ordinário. A domesticação das mães de criação, amas de leite, mãe preta, através
+          da tradição do aleitamento também é notório no mito</p>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/obras/sotsilogiya-cke.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Operários (1933)- Tarsila do Amaral</h5>
+        <p class="card-text p-txt-c">A expressão dos operários representados passa ao espectador a sensação de tristeza,
+          indiferença e cansaço. Esses sentimentos representam as péssimas condições de trabalho às quais os migrantes
+          estavam submetidos, assim como remetem à falta de perspectiva que predominava no contexto de opressão da Era
+          Vargas.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+    <div class="text-center">
+      <h2 class="h2-maluco" id="contato">Contato</h2>
+    </div>
+    
+
+    
+    <div class="d-flex justify-content-around" id="contato">
+      <div class="row">
+        <div class="col-6"><a href="https://github.com/victorcosta1"><img src="assets/img/icons8-github.svg" alt=""></a></div>
+        <div class="col-6"><a href="https://www.linkedin.com/in/victor-costa-/"><img src="assets/img/icons8-linkedin.svg" alt=""></a></div>
+      </div>
+    </div>
+
+
+
+
+    
+
+  <!--Script BootStrap-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

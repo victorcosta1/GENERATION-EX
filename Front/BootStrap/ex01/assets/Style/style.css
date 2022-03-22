@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+body{
+    background-color: rgb(247, 245, 245);
+    font-family: 'Syne', sans-serif;
+}
+
 
 html{
     scroll-behavior: smooth;
@@ -6,17 +13,29 @@ html{
 .h2-maluco{
     padding-top: 15px;
     padding-bottom: 15px;
+    text-decoration: underline rgba(226, 7, 7, 0.733) 3px;
 }
 
 
 .navbar{
    
-    background: rgba( 234, 27, 27, 0.2 )  !important;
+    background: rgba(172, 2, 2, 0.555)  !important;
     backdrop-filter: blur( 3px )  !important;
     -webkit-backdrop-filter: blur( 3px )  !important;
-    border-radius: 10px  !important;
+    border-radius: 0px 0px 50px 50px / 25px 25px 25px 25px !important;
     border: 1px solid rgba( 255, 255, 255, 0.18 )  !important;
 }
+
+
+.card{
+    box-shadow: 5px 10px 27px 2px rgba(0,0,0,0.15);
+}
+
+.carousel{
+    box-shadow: 5px 10px 27px 2px rgba(0,0,0,0.15);
+}
+
+
 
 h2{
     padding-top: 20px;
@@ -49,4 +68,29 @@ p{
 
 .tilte-h5{
     padding-top: 65px;
+}
+
+iframe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p-doidao{
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.p-txt-c{
+    font-weight: 200;
+}
+
+.nav-item:hover{
+    background-color: rgba(194, 9, 9, 0.486);
+    border-radius: 25px;
+}
+
+
+.nav-item > a:hover{
+    color: white;
 }
