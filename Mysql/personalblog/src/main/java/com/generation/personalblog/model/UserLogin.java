@@ -13,6 +13,8 @@ public class UserLogin {
 	private String photo;
 	
 	private String token;
+	
+	private String type;
 
 	public Long getId() {
 		return id;
@@ -62,4 +64,14 @@ public class UserLogin {
 		this.token = token;
 	}
 
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String tipo) {
+		this.type = tipo;
+	}
+	
+		
+	
 }
